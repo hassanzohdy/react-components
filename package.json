@@ -1,6 +1,6 @@
 {
     "name": "@mongez/react-components",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Beautiful and simple ready React Components for quick production.",
     "main": "src/index.ts",
     "author": "hassanzohdy",

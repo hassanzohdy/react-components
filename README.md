@@ -36,7 +36,7 @@ setRouterConfigurations({
 
 Now any route that is not found will case a render to the `NotFound` component.
 
-## Progress Component
+## Progress Bar
 
 This component is used to show a progress bar.
 
