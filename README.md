@@ -18,6 +18,10 @@ import { NotFound } from '@mongez/react-components';
 <NotFound />
 ```
 
+It will look like this:
+
+![Not Found Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5llfh3np2th1xu4oowj2.png)
+
 ## Progress Component
 
 This component is used to show a progress bar.
