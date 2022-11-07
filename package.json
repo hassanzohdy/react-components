@@ -1,19 +1,19 @@
 {
-  "name": "@mongez/react-components",
-  "version": "1.0.0",
-  "description": "Beautiful and simple ready React Components for quick production.",
-  "main": "src/index.ts",
-  "author": "hassanzohdy",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hassanzohdy/react-components"
-  },
-  "license": "MIT",
-  "keywords": [
-    "react",
-    "components",
-    "not-found",
-    "notFound",
-    "progress"
-  ]
+    "name": "@mongez/react-components",
+    "version": "1.0.1",
+    "description": "Beautiful and simple ready React Components for quick production.",
+    "main": "src/index.ts",
+    "author": "hassanzohdy",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hassanzohdy/react-components"
+    },
+    "license": "MIT",
+    "keywords": [
+        "react",
+        "components",
+        "not-found",
+        "notFound",
+        "progress"
+    ]
 }
