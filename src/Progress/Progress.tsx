@@ -49,7 +49,10 @@ export default function Progress({
     progressRef.current.style.display = "none";
   };
 
-  const show = () => (progressRef.current.style.display = "block");
+  const show = () => {
+    if (!progressRef.current) return;
+    progressRef.current.style.display = "block";
+  };
   const set = (value: number) => {
     progressRef.current.style.width = `${value}%`;
     setProgress(value);
