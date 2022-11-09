@@ -100,3 +100,4 @@ Here is all available props:
 | **color** | `string` | `#21a6e9` | The progress bar color |
 | **glowColor** | `string` | `#21a6e9` | The progress bar glow color |
 | **glow** | `number` | `20` | The progress bar glow height |
+| **zIndex** | `number` | `1000` | The progress bar z-index |

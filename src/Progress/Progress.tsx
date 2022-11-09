@@ -27,6 +27,12 @@ export type ProgressProps = {
    * The color of the progress bar glow effect
    */
   glowColor?: string;
+  /**
+   * Z index of the progress bar
+   *
+   * @default 1000
+   */
+  zIndex?: number;
 };
 
 export default function Progress({
@@ -34,6 +40,7 @@ export default function Progress({
   value: incomingProgress,
   height = 5,
   glow = 20,
+  zIndex = 1000,
   color = "#21a6e9",
   glowColor = "#21a6e9",
 }: ProgressProps) {
@@ -129,6 +136,7 @@ export default function Progress({
         <div
           ref={progressRef}
           style={{
+            zIndex,
             boxShadow: `0 0 ${glow}px ${glowColor}`,
             height: `${height}px`,
             backgroundColor: color,
