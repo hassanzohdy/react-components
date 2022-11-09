@@ -53,6 +53,7 @@ export default function Progress({
   const [loading, setLoading] = useState(incomingLoading);
 
   const hide = () => {
+    if (!progressRef.current) return;
     progressRef.current.style.display = "none";
   };
 
@@ -61,6 +62,7 @@ export default function Progress({
     progressRef.current.style.display = "block";
   };
   const set = (value: number) => {
+    if (!progressRef.current) return;
     progressRef.current.style.width = `${value}%`;
     setProgress(value);
   };
